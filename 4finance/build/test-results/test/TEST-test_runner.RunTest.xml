@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_runner.RunTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="MaxMacBook" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: acceptanceTest
+-------------------- 234.0 --------------------
+-------------------- 190.0 --------------------
+
+  Scenario: check whether the sum of items in the bag is correct ?[90m# acceptanceTest.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI navigate to "?[0m?[32m?[1mhttps://www.yoox.com/it/uomo?[0m?[32m"?[0m           ?[90m# AcceptanceTestStepDefinition.java:21?[0m
+    ?[32mAnd ?[0m?[32mI go to item selection's page?[0m                            ?[90m# AcceptanceTestStepDefinition.java:26?[0m
+    ?[32mWhen ?[0m?[32mI add two random prioducts to the bag?[0m                   ?[90m# AcceptanceTestStepDefinition.java:36?[0m
+    ?[32mAnd ?[0m?[32mI navigate to the bag?[0m                                    ?[90m# AcceptanceTestStepDefinition.java:46?[0m
+    ?[32mAnd ?[0m?[32mI add one more instance of a product?[0m                     ?[90m# AcceptanceTestStepDefinition.java:52?[0m
+    ?[32mThen ?[0m?[32mThe final price must be correct?[0m                         ?[90m# AcceptanceTestStepDefinition.java:62?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+6 Steps (?[32m6 passed?[0m)
+0m21,659s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
